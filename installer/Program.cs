@@ -348,7 +348,7 @@ namespace ChuSinGura46Plus1ZhPatch
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             StartPosition = FormStartPosition.CenterScreen;
-            ClientSize = new System.Drawing.Size(680, 452);
+            ClientSize = new System.Drawing.Size(680, 476);
             Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
 
             var intro = new Label
@@ -407,11 +407,13 @@ namespace ChuSinGura46Plus1ZhPatch
             _log.ReadOnly = true;
 
             _footer.Dock = DockStyle.Bottom;
-            _footer.Height = 24;
+            _footer.Height = 40;
             _footer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             _footer.ForeColor = System.Drawing.SystemColors.GrayText;
             _footer.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F);
-            _footer.Text = "补丁程序与构建工具 Copyright © 2026 Jin Lujia · 游戏本体版权归 Inre 所有，仅供正版用户学习交流";
+            _footer.Text = "觉得好用的话，欢迎到 GitHub 仓库点个 ⭐ Star 支持作者：\r\n" +
+                           "github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch\r\n" +
+                           "补丁程序与构建工具 Copyright © 2026 Jin Lujia · 游戏本体版权归 Inre 所有，仅供正版用户学习交流";
 
             Controls.Add(_log);
             Controls.Add(btnPanel);
@@ -473,7 +475,7 @@ namespace ChuSinGura46Plus1ZhPatch
                     Log(install ? "安装完成！从 Steam 启动游戏，在设置中切换语言为「简体中文」。"
                                 : "已恢复为原版文件。");
                     Invoke(new Action(() => MessageBox.Show(this,
-                        install ? "汉化安装成功！\n\n进入游戏后：右键打开设置（或点设置按钮），\n把语言循环切换到「简体中文」即可。" : "已恢复原版。",
+                        install ? "汉化安装成功！\n\n进入游戏后：右键打开设置（或点设置按钮），\n把语言循环切换到「简体中文」即可。\n\n觉得好用的话，欢迎到 GitHub 仓库点个 ⭐ Star 支持作者：\ngithub.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch" : "已恢复原版。",
                         "完成", MessageBoxButtons.OK, MessageBoxIcon.Information)));
                 }
                 catch (Exception ex)

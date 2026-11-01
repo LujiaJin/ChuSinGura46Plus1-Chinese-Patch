@@ -34,3 +34,6 @@
 补丁安装器与构建工具 Copyright © 2026 Jin Lujia
 汉化文本 138,029 条由爱好者制作整理，仅供学习交流，
 游戏本体版权归 Inre 所有，请支持正版：https://store.steampowered.com/app/464780/
+
+觉得好用？欢迎到 GitHub 仓库点个 ⭐ Star 支持作者：
+https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch
