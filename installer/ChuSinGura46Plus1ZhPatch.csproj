@@ -11,7 +11,12 @@
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <AssemblyTitle>ChuSinGura46+1 简体中文汉化补丁</AssemblyTitle>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
     <Product>ChuSinGura46+1 简体中文汉化补丁</Product>
+    <Description>《ChuSinGura46+1 S》(Steam) 简体中文汉化补丁安装器</Description>
+    <Company>Jin Lujia</Company>
+    <Authors>Jin Lujia</Authors>
+    <Copyright>Copyright © 2026 Jin Lujia</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

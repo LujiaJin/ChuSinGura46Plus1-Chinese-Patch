@@ -1,10 +1,10 @@
 # ChuSinGura46+1 S 简体中文汉化补丁
 
+![cover](docs/cover.jpg)
+
 《ChuSinGura46+1 S -忠臣蔵46+1-》（Steam 版，AppID `464780`）的简体中文汉化补丁。
 剧情文本、人物名、选项与系统文本全量汉化，共 **138,029** 条译文；日文、英文原文保留，
 游戏内可随时在 简体中文 / English / 日本語 之间切换。
-
-![dialogue](docs/screenshot-dialogue.png)
 
 ## 下载
 
@@ -21,8 +21,6 @@
    - 游戏装在 `Program Files` 时会请求一次管理员权限（UAC 弹窗），属正常现象
 4. 从 Steam 启动游戏，在游戏中 **右键**（或点设置按钮）打开环境设置，
    将语言循环切换到 **「简体中文」**
-
-![title](docs/screenshot-title.png)
 
 ## 功能与特性
 
@@ -72,6 +70,7 @@
 
 ## 声明
 
+- 本补丁的安装器程序与构建工具 **Copyright © 2026 Jin Lujia**，汉化译文版权归汉化作者所有。
 - 本补丁仅供学习交流，**需持有正版游戏**。游戏及全部素材版权归
   [Inre](https://store.steampowered.com/app/464780/) 所有。
 - 请勿将本补丁用于商业用途或与游戏本体捆绑分发。

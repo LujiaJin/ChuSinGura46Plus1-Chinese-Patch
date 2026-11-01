@@ -1,4 +1,6 @@
 // ChuSinGura46+1 (Steam) 简体中文汉化补丁安装器
+// Copyright © 2026 Jin Lujia. 本补丁安装器及构建工具版权归 Jin Lujia 所有。
+// 游戏本体及其素材版权归 Inre 所有，本程序仅供持有正版游戏的个人学习交流使用。
 // - 自动定位 Steam 安装目录 (AppID 464780)
 // - 校验原版文件 SHA256（仅支持当前 Steam 构建，版本不符会拒绝并提示）
 // - 安装前自动备份，可一键恢复原版
@@ -338,6 +340,7 @@ namespace ChuSinGura46Plus1ZhPatch
         private readonly Button _installBtn = new Button();
         private readonly Button _restoreBtn = new Button();
         private readonly TextBox _log = new TextBox();
+        private readonly Label _footer = new Label();
 
         public MainForm(string dir)
         {
@@ -345,7 +348,7 @@ namespace ChuSinGura46Plus1ZhPatch
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             StartPosition = FormStartPosition.CenterScreen;
-            ClientSize = new System.Drawing.Size(680, 430);
+            ClientSize = new System.Drawing.Size(680, 452);
             Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
 
             var intro = new Label
@@ -403,11 +406,19 @@ namespace ChuSinGura46Plus1ZhPatch
             _log.ScrollBars = ScrollBars.Vertical;
             _log.ReadOnly = true;
 
+            _footer.Dock = DockStyle.Bottom;
+            _footer.Height = 24;
+            _footer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            _footer.ForeColor = System.Drawing.SystemColors.GrayText;
+            _footer.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F);
+            _footer.Text = "补丁程序与构建工具 Copyright © 2026 Jin Lujia · 游戏本体版权归 Inre 所有，仅供正版用户学习交流";
+
             Controls.Add(_log);
             Controls.Add(btnPanel);
             Controls.Add(_stateLabel);
             Controls.Add(dirPanel);
             Controls.Add(intro);
+            Controls.Add(_footer);
 
             _dirBox.TextChanged += (s, e) => RefreshState();
 

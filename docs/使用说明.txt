@@ -31,5 +31,6 @@
 - 存档与原版互通；语言只是游戏内设置项，随时可切回英文/日文。
 
 【制作】
+补丁安装器与构建工具 Copyright © 2026 Jin Lujia
 汉化文本 138,029 条由爱好者制作整理，仅供学习交流，
-请支持正版：https://store.steampowered.com/app/464780/
+游戏本体版权归 Inre 所有，请支持正版：https://store.steampowered.com/app/464780/
