@@ -6,14 +6,14 @@
 
 ## 下载安装
 
-1. 从 [Releases](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases) 下载 **`ChuSinGura46Plus1_PC_ZH_Patch_v2.1.zip`**
+1. 从 [Releases](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases) 下载 **`ChuSinGura46Plus1_PC_ZH_Patch_v2.2.zip`**
 2. 解压得到 `patch.xp3`
 3. 将 `patch.xp3` 复制到游戏安装目录（与 `bgimage.xp3`、`scenario.xp3` 等同一层）
 4. 启动游戏即为简体中文
 
 卸载：删除 `patch.xp3` 即恢复日文原版。
 
-## 补丁内容（432 文件）
+## 补丁内容（450 文件）
 
 | 模块 | 说明 |
 |---|---|
@@ -28,7 +28,7 @@
 
 - 「追加内容 → 片头动画」播放结束后可能无响应——**日文原版同样存在**（引擎视频组件缺陷，与补丁无关），重启游戏即可，或改用「影像鉴赏」入口观看
 - 部分内容需通关解锁（游戏进度机制）
-- 语音设置页（逐角色音量网格）、人物录详情页（43 张角色介绍图）尚未汉化，列入后续批次
+- 人物录详情页（43 张角色介绍图）尚未汉化，列入后续批次
 - 测试新补丁前请**完全退出游戏进程**再替换文件（KiriKiri 启动时锁定 XP3 归档）
 
 ## 本目录内容
