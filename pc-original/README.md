@@ -1,28 +1,28 @@
-# 忠臣蔵46+1 PC 原版（KiriKiri）简体中文补丁
+# 忠臣蔵46+1 PC 版（KiriKiri）简体中文补丁
 
-适用于 **ChuSinGura46+1 PC 原版**（KiriKiri/krkr2 引擎，非 Steam 重制版）的完整简体中文汉化补丁。
+适用于 **ChuSinGura46+1 PC 版**（KiriKiri/krkr2 引擎，光盘版 / DL 版）的完整简体中文汉化补丁。这是本仓库的**主打补丁**。
 
-> Steam 版（Unity 重制版）补丁请看[仓库主 README](../README.md)。
+> Steam 版（Unity 重制版）补丁请看 [steam-s/](../steam-s/)。
 
 ## 下载安装
 
-1. 从 [Releases](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases) 下载 `ChuSinGura46Plus1_PC_ZH_Patch_v2.0.zip`
+1. 从 [Releases](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases) 下载 **`ChuSinGura46Plus1_PC_ZH_Patch_v2.1.zip`**
 2. 解压得到 `patch.xp3`
 3. 将 `patch.xp3` 复制到游戏安装目录（与 `bgimage.xp3`、`scenario.xp3` 等同一层）
 4. 启动游戏即为简体中文
 
 卸载：删除 `patch.xp3` 即恢复日文原版。
 
-## 补丁内容（403 文件）
+## 补丁内容（432 文件）
 
 | 模块 | 说明 |
 |---|---|
-| 剧本全文 | 全部分支剧情对话、旁白、选择支（基于已校对的日中对齐语料翻译） |
+| 剧本全文 | C/E/I/Y/S 全部分支路线 + 序章 + 讨入动画章节（douga 15 文件）+ 后日谈（omake）+ Y 线最终章 |
 | 系统 UI | 环境设置、人物录、存档/读档、追加内容（Extra）各页面的标题与标签 |
 | 标题/菜单 | 标题页六个按钮、Extra 页、警告页（DANGER）重绘 |
 | 弹窗 | 确认弹窗按钮（是/否）、开机跳过确认等 |
 | 字体 | 全局强制微软雅黑，杜绝缺字回退造成的字形混杂 |
-| 鉴赏 | CG 鉴赏、场景回想（中文剧本回放）、影像鉴赏、音乐鉴赏页面标题 |
+| 鉴赏 | CG 鉴赏、场景回想（中文剧本回放）、影像鉴赏、音乐鉴赏页面标题与入口卡片 |
 
 ## 已知事项
 
