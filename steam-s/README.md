@@ -1,5 +1,7 @@
 # ChuSinGura46+1 S（Steam 版）简体中文汉化补丁
 
+![ChuSinGura46+1 S](cover_steam.jpg)
+
 《ChuSinGura46+1 S -忠臣蔵46+1-》（Steam 版，AppID `464780`）的简体中文汉化补丁。
 剧情文本、人物名、选项与系统文本全量汉化，共 **138,029** 条译文；日文、英文原文保留，
 游戏内可随时在 简体中文 / English / 日本語 之间切换。
