@@ -10,7 +10,7 @@
 
 ## 下载
 
-到 [**Releases**](../../releases) 页面下载 `ChuSinGura46Plus1_ZH_Patch_v1.0.zip`（约 13.5 MB），解压后双击 `ChuSinGura46Plus1_ZH_Patch.exe` 即可。
+到 [**Releases 下载页**](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases/latest) 下载 **`ChuSinGura46Plus1_S_ZH_Patch.zip`**（约 13.5 MB），解压后双击 `ChuSinGura46Plus1_ZH_Patch.exe` 即可。
 
 - Windows 10 / 11 免安装任何运行库（.NET Framework 4.8 系统自带）
 - 程序会自动定位 Steam 游戏目录，自动备份原版文件，支持一键恢复

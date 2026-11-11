@@ -8,13 +8,13 @@
 
 > 📌 **本补丁适用于 PC 原版（KiriKiri 引擎，光盘版 / DL 版均可）** —— 下载后放入游戏目录即可生效。
 >
-> 🎮 Steam 版（ChuSinGura46+1 S，Unity 重制版）玩家请看 [steam-s/](steam-s/) —— 对应补丁在同一 [Releases](../../releases) 页面。
+> 🎮 Steam 版（ChuSinGura46+1 S，Unity 重制版）玩家请看 [steam-s/](steam-s/) —— 对应补丁在同一 [下载页](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases/latest)。
 
 > ⭐ **如果这个补丁帮到了你，欢迎点个 Star 支持作者** —— 你的 Star 能让更多玩家看到它。
 
 ## 下载安装
 
-到 [**Releases**](../../releases) 下载 **`ChuSinGura46Plus1_PC_ZH_Patch_v2.3.zip`**（约 22.6 MB）。
+到 [**下载页**](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases/latest) 下载 **`ChuSinGura46Plus1_PC_ZH_Patch.zip`**（约 22.6 MB，全量汉化，一站式的最终版）。
 
 1. 完全退出游戏
 2. 解压，将 `patch.xp3` 复制到游戏安装目录（与 `bgimage.xp3`、`scenario.xp3` 同一文件夹）

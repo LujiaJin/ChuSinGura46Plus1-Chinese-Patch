@@ -6,7 +6,7 @@
 
 ## 下载安装
 
-1. 从 [Releases](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases) 下载 **`ChuSinGura46Plus1_PC_ZH_Patch_v2.3.zip`**
+1. 从 [Releases](https://github.com/LujiaJin/ChuSinGura46Plus1-Chinese-Patch/releases) 下载 **`ChuSinGura46Plus1_PC_ZH_Patch.zip`**
 2. 解压得到 `patch.xp3`
 3. 将 `patch.xp3` 复制到游戏安装目录（与 `bgimage.xp3`、`scenario.xp3` 等同一层）
 4. 启动游戏即为简体中文
